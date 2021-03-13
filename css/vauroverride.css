@@ -1,0 +1,182 @@
+/* Custom CSS vAUR
+By Liam Pickering
+
+Please keep everything organised and tidy!
+
+Notes:
+
+
+*/
+
+/* Custom Highlight colour */
+::selection {
+    background: #f4cc15; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #f4cc15; /* Gecko Browsers */
+  }
+
+/* The "fly now" button on the front page. */
+button.btn.btn-white, button.btn.btn-light,
+.btn:not(.close):not(.mfp-close).btn-white,
+.btn:not(.close):not(.mfp-close).btn-light,
+a.btn:not([href]):not([tabindex]).btn-white,
+a.btn:not([href]):not([tabindex]).btn-light {
+  background-color: #fff;
+  border-color: #fff;
+  color: #0C3B62;
+  font-weight: bold;
+  min-width: 120px;
+}
+button.btn:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, button.btn:not(:disabled):not(.disabled).active,
+.btn:not(.close):not(.mfp-close):hover,
+.btn:not(.close):not(.mfp-close):focus,
+.btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active,
+.btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active,
+a.btn:not([href]):not([tabindex]):hover,
+a.btn:not([href]):not([tabindex]):focus,
+a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active,
+a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active {
+  background-color: #f4cc15;
+  border-color: #f4cc15;
+  color: #0C3B62;
+  text-decoration: none;
+}
+button.btn.btn-white:hover, button.btn.btn-white:focus, button.btn.btn-white:active, button.btn.btn-white.active, button.btn.btn-light:hover, button.btn.btn-light:focus, button.btn.btn-light:active, button.btn.btn-light.active,
+.btn:not(.close):not(.mfp-close).btn-white:hover,
+.btn:not(.close):not(.mfp-close).btn-white:focus,
+.btn:not(.close):not(.mfp-close).btn-white:active,
+.btn:not(.close):not(.mfp-close).btn-white.active,
+.btn:not(.close):not(.mfp-close).btn-light:hover,
+.btn:not(.close):not(.mfp-close).btn-light:focus,
+.btn:not(.close):not(.mfp-close).btn-light:active,
+.btn:not(.close):not(.mfp-close).btn-light.active,
+a.btn:not([href]):not([tabindex]).btn-white:hover,
+a.btn:not([href]):not([tabindex]).btn-white:focus,
+a.btn:not([href]):not([tabindex]).btn-white:active,
+a.btn:not([href]):not([tabindex]).btn-white.active,
+a.btn:not([href]):not([tabindex]).btn-light:hover,
+a.btn:not([href]):not([tabindex]).btn-light:focus,
+a.btn:not([href]):not([tabindex]).btn-light:active,
+a.btn:not([href]):not([tabindex]).btn-light.active {
+    background-color: #f4cc15;
+    border-color: #f4cc15;
+    color: #0C3B62;
+}
+
+/*Other Buttons */
+/* Experience vAUR */
+button.btn.btn-white.btn-outline, button.btn.btn-light.btn-outline,
+.btn:not(.close):not(.mfp-close).btn-white.btn-outline,
+.btn:not(.close):not(.mfp-close).btn-light.btn-outline,
+a.btn:not([href]):not([tabindex]).btn-white.btn-outline,
+a.btn:not([href]):not([tabindex]).btn-light.btn-outline {
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+button.btn.btn-white.btn-outline:hover, button.btn.btn-white.btn-outline:focus, button.btn.btn-white.btn-outline:active, button.btn.btn-white.btn-outline.active, button.btn.btn-light.btn-outline:hover, button.btn.btn-light.btn-outline:focus, button.btn.btn-light.btn-outline:active, button.btn.btn-light.btn-outline.active,
+.btn:not(.close):not(.mfp-close).btn-white.btn-outline:hover,
+.btn:not(.close):not(.mfp-close).btn-white.btn-outline:focus,
+.btn:not(.close):not(.mfp-close).btn-white.btn-outline:active,
+.btn:not(.close):not(.mfp-close).btn-white.btn-outline.active,
+.btn:not(.close):not(.mfp-close).btn-light.btn-outline:hover,
+.btn:not(.close):not(.mfp-close).btn-light.btn-outline:focus,
+.btn:not(.close):not(.mfp-close).btn-light.btn-outline:active,
+.btn:not(.close):not(.mfp-close).btn-light.btn-outline.active,
+a.btn:not([href]):not([tabindex]).btn-white.btn-outline:hover,
+a.btn:not([href]):not([tabindex]).btn-white.btn-outline:focus,
+a.btn:not([href]):not([tabindex]).btn-white.btn-outline:active,
+a.btn:not([href]):not([tabindex]).btn-white.btn-outline.active,
+a.btn:not([href]):not([tabindex]).btn-light.btn-outline:hover,
+a.btn:not([href]):not([tabindex]).btn-light.btn-outline:focus,
+a.btn:not([href]):not([tabindex]).btn-light.btn-outline:active,
+a.btn:not([href]):not([tabindex]).btn-light.btn-outline.active {
+    background-color: #f4cc15;
+    border-color: #f4cc15;
+    color: #0C3B62;
+}
+
+/* The front page text */
+.text-light,
+.text-light h1,
+.text-light h2,
+.text-light h3,
+.text-light h4,
+.text-light h5,
+.text-light h6,
+.text-light .lead,
+.text-light p,
+.text-light a:not(.btn),
+.text-light a:not(.btn):hover:not(.btn-light),
+.text-light i,
+.text-light li,
+.text-light label,
+.text-light div:not(.alert),
+.text-light span:not(.btn-label) {
+    color: #fff !important;
+}
+.inspiro-slider .slide .slide-captions h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+/* Experience vAUR background */
+.background-colored {
+    background-color: #007FFF;
+}
+
+/* Scroll top */
+#scrollTop:after, #scrollTop:before {
+background-color: #be153b !important;
+}
+
+/* Footer disclaimer */
+.vaur-disclaimer {
+    text-align: center;
+    line-height: normal;
+}
+
+/* About us */
+.aur-about {
+    text-align: center;
+}
+
+/* That fancy line under headings */
+.heading-text.heading-section h2:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #be153b;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+}
+
+.offer-section-aur {
+    padding: 80px 20px 0 0;
+}
+
+/* Logo */
+.aur-logo {
+    max-width: 200px;
+}
+#header .header-inner #logo,
+#header #header-wrap #logo {
+  float: left;
+  font-size: 28px;
+  position: relative;
+  z-index: 1;
+  transition: all .4s ease-in-out;
+  height: 80px;
+}
+
+/* Counters */
+.counter p {
+  font-size: 50px !important;
+  line-height: 40px !important;
+}
