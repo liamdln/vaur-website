@@ -25,3 +25,4 @@ Create or modify HTML pages as required. Ensure the header is on the page (if re
 ## Todo
 
 - Make the header global so it does not have to be copied and pasted into each page.
+- The "WHAT WE OFFER" section is off-centre.
