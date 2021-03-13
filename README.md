@@ -8,7 +8,7 @@ Run index.html (either by double clicking, or by running a web server using XAMP
 
 ## Contributions
 
-Please contribute only in the following files:
+Please contribute only in the following files/folders:
 
 ### Scripts
 
